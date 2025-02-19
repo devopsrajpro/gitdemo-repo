@@ -1,0 +1,54 @@
+                        rajesh             Linux Training Labs
+/////////////////////////////////////////////////////////////////////////
+
+System Requirements:
+
+Virtual Machines or Physical Servers (Linux-based, Ubuntu/CentOS preferred)
+Tools like VirtualBox, VMware, or cloud instances (AWS, GCP, etc.)
+
+Lab 1: Introduction to Linux Basics
+
+Basic Linux Commands: ls, cd, pwd, cp, mv, rm, touch, mkdir, rmdir
+File Permissions: chmod, chown, chgrp
+File Editing: nano, vim, vi
+Process Management: ps, top, kill, htop
+Package Management: apt-get (Ubuntu/Debian), yum (CentOS/RHEL)
+
+
+Lab 2: User Management and Networking
+
+User Management:
+Create, modify, and delete users (useradd, usermod, userdel)
+Managing groups (groupadd, groupdel, gpasswd)
+
+File System and Disk Management:
+Mount, unmount, and check disk usage (df, du)
+Create and manage partitions (fdisk, parted, lsblk)
+
+Networking Basics:
+Check network status (ifconfig, ip, netstat)
+Set static IP (/etc/network/interfaces or /etc/netplan/ depending on the distro)
+Test connectivity (ping, traceroute, nslookup)
+
+Lab 3: Working with Logs and System Monitoring
+Log Management:
+View logs (/var/log/syslog, /var/log/messages, journalctl)
+Disk Usage and System Monitoring:
+Disk space usage (df, du), process monitoring (top, ps)
+Memory monitoring (free, vmstat)
+
+Basic Troubleshooting:
+Find system errors in logs
+Use dmesg to view system boot messages
+
+Lab 4: Package Management and Automation
+
+Package Management (Advanced):
+Installing, upgrading, and removing packages (apt, yum, rpm)
+Install and configure repositories
+
+Automation with Cron Jobs:
+Scheduling tasks using cron (crontab -e, cron.d)
+Check scheduled tasks (crontab -l)
+
+rajesh
